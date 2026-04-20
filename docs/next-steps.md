@@ -13,6 +13,7 @@ Checklist vivo do projeto. Este arquivo deve ser atualizado a cada sessão que a
 - [x] Criar plugin inicial `SystemActions`
 - [x] Expor API local mínima com health, plugins e execução de comandos
 - [x] Iniciar Web UI mínima em `Axon.Web`
+- [x] Alinhar a interface visual do `Axon.Web` ao protótipo `temp/Axon_App_UI_v2.html`
 - [x] Adicionar build e testes iniciais da solução
 
 ## Próximos passos
