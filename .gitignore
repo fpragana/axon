@@ -1,0 +1,64 @@
+# Operating system
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDEs and editors
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Logs and temp
+*.log
+logs/
+tmp/
+temp/
+
+# .NET build output
+bin/
+obj/
+out/
+TestResults/
+
+# .NET user-specific files
+*.rsuser
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+
+# Publish and artifacts
+publish/
+artifacts/
+
+# Coverage
+coverage/
+coverage.*
+*.coverage
+*.coveragexml
+
+# Frontend / Node
+node_modules/
+dist/
+build/
+.npm/
+.pnpm-store/
+
+# Environment and secrets
+.env
+.env.*
+appsettings.Local.json
+appsettings.*.local.json
+secrets.json
+
+# Tool caches
+.cache/
+
+# Local plugin/runtime data
+plugins/**/bin/
+plugins/**/obj/
