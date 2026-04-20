@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-Axon.Host-ba75fef9-0211-4914-885a-cbc17cfef534</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Axon.Application\Axon.Application.csproj" />
+    <ProjectReference Include="..\Axon.AI\Axon.AI.csproj" />
+    <ProjectReference Include="..\Axon.Infrastructure\Axon.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\plugins\SystemActions\Axon.Plugins.SystemActions.csproj" />
+    <ProjectReference Include="..\..\plugins\HomeAssistant\Axon.Plugins.HomeAssistant.csproj" />
+  </ItemGroup>
+</Project>

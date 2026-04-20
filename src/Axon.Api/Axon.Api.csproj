@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Axon.Application\Axon.Application.csproj" />
+    <ProjectReference Include="..\Axon.AI\Axon.AI.csproj" />
+    <ProjectReference Include="..\Axon.Infrastructure\Axon.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\plugins\SystemActions\Axon.Plugins.SystemActions.csproj" />
+    <ProjectReference Include="..\..\plugins\HomeAssistant\Axon.Plugins.HomeAssistant.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+</Project>

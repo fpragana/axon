@@ -1,0 +1,19 @@
+<Solution>
+  <Folder Name="/plugins/">
+    <Project Path="plugins/HomeAssistant/Axon.Plugins.HomeAssistant.csproj" />
+    <Project Path="plugins/SystemActions/Axon.Plugins.SystemActions.csproj" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/Axon.AI/Axon.AI.csproj" />
+    <Project Path="src/Axon.Api/Axon.Api.csproj" />
+    <Project Path="src/Axon.Application/Axon.Application.csproj" />
+    <Project Path="src/Axon.Core/Axon.Core.csproj" />
+    <Project Path="src/Axon.Host/Axon.Host.csproj" />
+    <Project Path="src/Axon.Infrastructure/Axon.Infrastructure.csproj" />
+    <Project Path="src/Axon.Web/Axon.Web.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Axon.Api.Tests/Axon.Api.Tests.csproj" />
+    <Project Path="tests/Axon.Application.Tests/Axon.Application.Tests.csproj" />
+  </Folder>
+</Solution>

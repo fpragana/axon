@@ -445,6 +445,24 @@ Quando agentes forem evoluir o projeto, seguir preferencialmente esta ordem:
 
 ---
 
+## Checklist vivo de próximos passos
+
+O arquivo canônico de acompanhamento incremental do projeto é `docs/next-steps.md`.
+
+### Regra obrigatória para agentes
+
+Sempre que uma sessão alterar o estado de implementação do MVP, o agente deve atualizar `docs/next-steps.md` no mesmo conjunto de mudanças.
+
+### Regras de manutenção
+
+1. marcar itens concluídos com `[x]`;
+2. manter itens pendentes com `[ ]`;
+3. adicionar novas tarefas descobertas durante a implementação;
+4. remover ou ajustar itens obsoletos quando a direção do projeto mudar;
+5. não encerrar trabalho de implementação sem revisar se o checklist precisa ser atualizado.
+
+---
+
 ## Critérios de aceite do MVP
 
 O MVP está consistente quando:

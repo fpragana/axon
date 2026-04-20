@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AXON</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main class="shell">
+    <section class="hero">
+      <p class="eyebrow">AXON · local-first AI runtime</p>
+      <h1>Estrutura inicial da plataforma pronta para evolução.</h1>
+      <p class="summary">
+        Núcleo, aplicação, IA, infraestrutura, host, API, web e plugins já foram separados
+        para sustentar o MVP definido em AGENTS.md.
+      </p>
+    </section>
+
+    <section class="panel">
+      <h2>Camadas criadas</h2>
+      <ul>
+        <li>Axon.Core</li>
+        <li>Axon.Application</li>
+        <li>Axon.AI</li>
+        <li>Axon.Infrastructure</li>
+        <li>Axon.Host</li>
+        <li>Axon.Api</li>
+        <li>Axon.Web</li>
+      </ul>
+    </section>
+
+    <section class="panel">
+      <h2>Plugins iniciais</h2>
+      <ul>
+        <li>SystemActions</li>
+        <li>HomeAssistant</li>
+      </ul>
+      <p>O plugin <code>SystemActions</code> já responde a <code>echo</code> e <code>status</code>.</p>
+    </section>
+
+    <section class="panel command-preview">
+      <h2>Exemplo de comando</h2>
+      <div class="terminal">
+        <span class="prompt">&gt;</span>
+        <input id="commandInput" type="text" value="echo Olá, AXON" aria-label="Comando de exemplo">
+        <button id="runPreview" type="button">Simular</button>
+      </div>
+      <pre id="previewOutput">Pronto para executar o pipeline inicial.</pre>
+    </section>
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+</html>

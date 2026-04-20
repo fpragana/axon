@@ -147,15 +147,13 @@ Itens já definidos:
 
 ## Próximos passos
 
-1. criar a solution `.NET`;
-2. criar os projetos em `src/`;
-3. definir contratos do domínio em `Axon.Core`;
-4. implementar o engine de execução em `Axon.Application`;
-5. adicionar interpretador mock de intenção;
-6. criar plugin inicial `SystemActions`;
-7. expor API local;
-8. iniciar a Web UI mínima;
-9. adicionar o ícone na bandeja do Windows para abrir a interface e indicar o estado do host.
+O checklist vivo de evolução do projeto fica em [`docs/next-steps.md`](./docs/next-steps.md).
+
+Resumo do estado atual:
+
+- solution e projetos base já criados;
+- contratos iniciais, engine, mock de IA e plugin de exemplo já implementados;
+- próximos focos imediatos: conectar a Web UI ao fluxo real de execução, amadurecer seleção de plugins, ampliar observabilidade e preparar a integração com system tray.
 
 ## Licença
 
